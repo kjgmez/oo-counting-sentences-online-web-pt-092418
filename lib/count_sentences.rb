@@ -17,9 +17,4 @@ class String
   def count_sentences
     self.split(/[?.!]+/).count
   end
-
-  # def count_sentences
-  #   if self.sentence? || self.question? || self.exclamation? || self == ""
-  #     self.split.count
-  #   end
 end
